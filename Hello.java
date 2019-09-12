@@ -28,4 +28,19 @@ class Hello {
 
         return a/b;
     }
+
+    public static void evenOddFinder(double a)
+    {
+        double x = a%2;
+        if(x==0)
+        {
+            System.out.println("Even number");
+        
+        }
+        else{
+
+            System.out.println("Odd number");
+        }
+
+    }
 }
